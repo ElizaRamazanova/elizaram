@@ -1,0 +1,12 @@
+/* .active {
+    background-color: red;
+  }
+  
+  .wrap.activeShow .show {
+    display: none;
+  }
+   */
+
+.wrapDiv{
+    display: none;
+}

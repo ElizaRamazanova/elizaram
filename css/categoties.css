@@ -1,0 +1,164 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+#main_categories{
+    padding: 150px 0;
+}
+.wrap{
+    padding: 20px;
+}
+#main_categories{
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url('https://img.freepik.com/premium-photo/concept-of-wedding-accessories-with-wedding-rings-close-up_185193-70677.jpg?w=2000');
+    width: 100%;
+   
+}
+
+.container_categories{
+    max-width: 70%;
+    margin: 0 auto;
+}
+
+
+
+h2{
+    font-size: 36px;
+    font-style:normal;
+    font-weight: 300;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding: 10px;
+}
+.wrapCategories{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid rgb(244, 241, 241);
+    align-items: center;
+    
+}
+
+
+.buttonCategories {
+    background-color: bisque;
+    width: 40px;
+    height: 30px;
+}
+.wrapCategories img{
+    width: 400px;
+    /* height: 550px; */
+    margin:20px;
+}
+
+
+.wrapCategories p{
+   font-size: 24px;
+   font-style: normal;
+   text-transform: capitalize;
+   
+
+}
+
+
+.output {
+  display: flex;
+  flex-wrap: wrap;
+  /* gap: 10px; */
+  margin-top: 50px;
+  width: 100%;
+  justify-content: space-between;
+}
+.output .wrap{
+    width: 31%;
+}
+.output img {
+  width: 100%;
+  height: 90%;
+}
+
+
+.categories__choise{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 30px;
+    margin: 20px 10px;
+
+}
+.categories__choise button {
+    width: 180px;
+    height: 40px;
+    background-color: rgb(236, 236, 221);
+    border: 3px solid rgb(69, 67, 69);
+    border-radius: 5px;
+    font-size: 20px;
+    text-transform: capitalize;
+   
+}
+.categories__choise button:hover {
+    background-color: rgb(176, 217, 227);
+    color: rgb(176, 169, 169);
+}
+.active {
+    background-color: red;
+  }
+  
+  .wrap.activeShow .show {
+    display: none;
+  }
+.buttonShow{
+    width: 20%;
+    height: 30px;
+    background-color: rgb(236, 236, 221);
+    border: 3px solid rgb(69, 67, 69);
+    border-radius: 5px;
+    font-size: 12px;
+    
+    
+}
+
+  /* .form__input-button{
+    display: flex;
+    justify-content: center;
+    align-items: center; */
+   
+  /* } */
+
+  #form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 20px;
+    padding: 20px;
+   
+  }
+
+
+  #form input{
+    width: 50%;
+    height: 40px;
+    border-radius: 5px;
+    border: 3px solid rgb(69, 67, 69);
+    
+  }
+
+  #form button{
+    width: 10%;
+    height: 40px;
+    border-radius: 5px;
+    border: 3px solid rgb(69, 67, 69);
+    background-color: rgb(236, 236, 221);
+  }
+ 
+
+  #form button:hover{
+    background-color: rgb(176, 217, 227);
+    color: rgb(176, 169, 169); 
+  }
+  
